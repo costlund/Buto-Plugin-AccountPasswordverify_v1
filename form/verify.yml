@@ -1,0 +1,23 @@
+url: /passwordverify/verify_capture
+ajax: true
+submit_value: Verify
+id: frm_passwordverify
+items:
+  password:
+    type: password
+    label: Password
+    mandatory: true
+capture: 
+  plugin: 'account/passwordverify_v1'
+  method: form_capture_verify
+buttons:
+  btn_cancel:
+    type: a
+    innerHTML: Cancel
+    attribute:
+      onclick: "$('#modal_passwordverify').modal('hide')"
+      class: 'btn btn-default'
+elements_below:
+  -
+    type: script
+    innerHTML: "document.getElementById('frm_passwordverify_password').focus();"

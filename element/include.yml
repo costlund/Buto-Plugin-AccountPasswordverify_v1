@@ -1,0 +1,7 @@
+-
+  type: widget
+  data:
+    plugin: 'wf/embed'
+    method: js
+    data:
+      file: /plugin/account/passwordverify_v1/js/function.js                

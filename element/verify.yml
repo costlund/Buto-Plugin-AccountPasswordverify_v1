@@ -1,0 +1,21 @@
+-
+  type: div
+  settings:
+    role:
+      item:
+        - client
+  innerHTML:
+    -
+      type: widget
+      data:
+        plugin: form/form_v1
+        method: render
+        data: yml:/plugin/account/passwordverify_v1/form/verify.yml
+-
+  type: div
+  settings:
+    role:
+      item:
+        - unknown
+  innerHTML: NOT signed in
+  

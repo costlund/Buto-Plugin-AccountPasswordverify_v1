@@ -1,0 +1,83 @@
+-
+  type: h1
+  innerHTML: PluginAccountPasswordverify_v1 DEMO
+-
+  type: p
+  innerHTML: This show how it should be used in your application. Do not forget to check server side method validateTime() if user is verified.
+-
+  type: h1
+  innerHTML: HTML
+-
+  type: textarea
+  attribute:
+    style: 'width:100%;height:100px;'
+    class: form-control
+  innerHTML: |
+    <a onclick="PluginAccountPasswordverify_v1.verify(test)" href="#!">Test</a>
+-
+  type: h1
+  innerHTML: Javascript
+-
+  type: textarea
+  attribute:
+    style: 'width:100%;height:100px;'
+    class: form-control
+  innerHTML: |
+    <script>function test(){location.reload();}</script>
+-
+  type: h1
+  innerHTML: PHP
+-
+  type: textarea
+  attribute:
+    style: 'width:100%;height:100px;'
+    class: form-control
+  innerHTML: |
+    wfPlugin::includeonce('account/passwordverify_v1');
+    $account = new PluginAccountPasswordverify_v1();
+    var_dump($account->validateTime());
+-
+  type: h1
+  innerHTML: Demo button
+-
+  type: div
+  attribute:
+    class: well
+  innerHTML:
+    -
+      type: a
+      attribute:
+        class: btn btn-success
+        onclick: PluginAccountPasswordverify_v1.verify(test)
+      innerHTML: Test
+    -
+      type: script
+      innerHTML: function test(){location.reload();}
+    -
+      type: div
+      innerHTML:
+        -
+          type: strong
+          innerHTML: Time
+        -
+          type: span
+          innerHTML: rs:time
+    -
+      type: div
+      innerHTML:
+        -
+          type: strong
+          innerHTML: Seconds
+        -
+          type: span
+          innerHTML: rs:seconds
+    -
+      type: div
+      innerHTML:
+        -
+          type: strong
+          innerHTML: Validate time
+        -
+          type: span
+          innerHTML: rs:validate_time
+  
