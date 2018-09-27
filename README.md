@@ -27,11 +27,11 @@ data:
 ```
 ## HTML
 ```
-<a onclick="PluginAccountPasswordverify_v1.verify(test)" href="#!">Test</a>
+<a onclick="PluginAccountPasswordverify_v1.verify(demo_function, {id: '1234'})" href="#!">Test</a>
 ```
 ## Javascript
 ```
-<script>function test(){location.reload();}</script>
+<script>function demo_function(params){console.log(params);}</script>
 ```
 ## PHP
 Use this to check server side if user is verified.
