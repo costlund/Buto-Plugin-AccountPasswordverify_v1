@@ -17,7 +17,7 @@ buttons:
     attribute:
       onclick: "$('#modal_passwordverify').modal('hide')"
       class: 'btn btn-default'
-elements_below:
+elements_after:
   -
     type: script
     innerHTML: "document.getElementById('frm_passwordverify_password').focus();"
