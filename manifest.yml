@@ -1,5 +1,9 @@
-version: 1.0.4
+version: 1.0.5
 history:
+  1.0.5:
+    date: '2022-09-07'
+    title: Versions
+    description: 'Versions update.'
   1.0.4:
     date: '2022-07-20'
     title: Versions
@@ -21,10 +25,10 @@ history:
 plugin:
   -
     name: wf/yml
-    version: 1.4.0
+    version: 1.4.1
   -
     name: wf/array
-    version: 1.2.3
+    version: 1.2.4
   -
     name: calc/date_v1
     version: 1.4.0
@@ -33,7 +37,7 @@ plugin:
     version: 1.14.8
   -
     name: form/form_v1
-    version: 1.53.0
+    version: 1.54.0
 sys:
   -
     name: mercury
