@@ -1,5 +1,9 @@
-version: 1.0.10
+version: 1.0.11
 history:
+  1.0.11:
+    date: '2023-04-14'
+    title: Versions
+    description: 'Versions update.'
   1.0.10:
     date: '2023-03-09'
     title: Versions
@@ -57,7 +61,7 @@ plugin:
     version: 1.15.0
   -
     name: form/form_v1
-    version: 1.58.1
+    version: 1.59.0
 sys:
   -
     name: mercury
